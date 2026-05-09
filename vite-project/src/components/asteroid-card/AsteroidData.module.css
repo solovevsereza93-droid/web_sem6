@@ -14,13 +14,13 @@
     background-position: 150px 50px;
 }
 
-.container[data-image-type="stone"] {
+.container[data-image-type="medium"] {
     background-image: url("/medium.png");
     background-size: 30%;
     background-position: 75px 0px;
 }
 
-.container[data-image-type="comet"] {
+.container[data-image-type="big"] {
     background-image: url("/big.png");
     background-size: 85%;
     background-position: left top;
