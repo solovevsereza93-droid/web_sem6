@@ -45,8 +45,8 @@
 
 .unitBtn {
     background: none;
-    border: none;
-    text-decoration: underline;
+    border-bottom: 1px solid black;
+    text-decoration: none;
     cursor: pointer;
     padding: 0;
     font-size: 16px; 

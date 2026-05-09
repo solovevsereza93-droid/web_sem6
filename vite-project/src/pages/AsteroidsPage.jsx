@@ -15,13 +15,12 @@ export const AsteroidsPage = () => {
           </label>
           
           <div className={styles.selector}>
-            Расстояние <span className={styles.activeUnit}>в километрах</span>,
-            <button className={styles.unitBtn}>_в дистанциях до луны</button>
+            Расстояние <span className={styles.activeUnit}>в километрах</span>, <a className={styles.unitBtn}>в дистанциях до луны</a>
           </div>
         </div>
 
         <div className={styles.banner}>
-          <img src="/image.png" alt="Космос" />
+          <img src="/cosmos.png" alt="Космос" />
         </div>
 
         <AsteroidsList />
